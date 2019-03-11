@@ -11,6 +11,7 @@ public class Main {
     private static int jumlahBuku;
     private static Calendar myCalendar = Calendar.getInstance();
     private static SimpleDateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy HH:mm:ss");
+
     public static void main(String[] args) {
 
         Scanner inputUser = new Scanner(System.in);
@@ -24,7 +25,7 @@ public class Main {
         print("Masukkan Kode Buku : ");
         kodeBuku = inputUser.nextLine();
         print("Masukkan Jumlah Buku : ");
-        jumlahBuku =inputUser.nextInt();
+        jumlahBuku = inputUser.nextInt();
 
         output();
     }
