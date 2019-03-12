@@ -30,6 +30,7 @@ public class Main {
         output();
     }
 
+    // Membuat method print
     private static void print(String message) {
         System.out.print(message);
     }
