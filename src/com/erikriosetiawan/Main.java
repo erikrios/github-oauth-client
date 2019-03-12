@@ -30,8 +30,8 @@ public class Main {
         output();
     }
 
-    private static void print(String str) {
-        System.out.print(str);
+    private static void print(String message) {
+        System.out.print(message);
     }
 
     private static void output() {
